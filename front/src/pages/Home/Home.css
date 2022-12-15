@@ -1,0 +1,101 @@
+.home-container {
+    background: #96C3F8;
+    margin: 0 auto;
+}
+
+.header-btn:hover {
+    border-color: #96C3F8;
+}
+
+
+.home-left {
+    position: absolute;
+    width: 780px;
+    height: 665px;
+    background: url('../../utils/images/homer.png');
+    background-color: #96C3F8;
+    background-repeat: no-repeat;
+    background-size: 750px;
+}
+
+.home-right {
+    margin-left: 780px;
+    height: 665px;
+    margin-bottom: 0px;
+    background: #96C3F8;
+    background-repeat: no-repeat;
+    background-size: 750px;
+
+}
+
+.intro {
+    margin-left: 780px;
+    margin-right: 40px;
+    margin-top: 60px;
+    height: 665px;
+    padding-bottom: 20px;
+    background: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.8)), #96C3F8;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    border-radius: 8px;
+
+}
+
+.description {
+    font-size: 66px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.btn-section {
+    position: absolute;
+    right: 100px;
+    top: 550px;
+}
+
+.intro h3 {
+    color: white;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.intro h4 {
+    color: white;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.intro h5,
+h6 {
+    color: white;
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 24px;
+    border-color: #f8dc96;
+    border-radius: 8px;
+    border-width: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgba(255, 165, 0, 0.2);
+    color: white;
+}

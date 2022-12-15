@@ -1,0 +1,80 @@
+.yoga-container {
+    background: linear-gradient(100deg, #96C3F8, #58d0f5);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.secondary-btn {
+    position: relative;
+    left: 80%;
+    top: 120;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 24px;
+    border-color: #f8dc96;
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+.secondary-btn:hover {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.starting-contdown {
+    margin: auto;
+    border: 10px solid rgba(125, 125, 125, 0.5);
+    width: max-content;
+    padding: 10px 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    top: 45%;
+}
+
+.starting-contdown h1 {
+    color: white;
+}
+
+.pose-img {
+    position: absolute;
+    right: 120px;
+    top: 100px;
+    width: 500px;
+    aspect-ratio: 1;
+}
+
+.performance-container {
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    left: 120px;
+
+}
+
+
+.pose-performance {
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.pose-performance h4 {
+    color: rgba(0, 0, 0, 0.7);
+    padding-left: 0;
+}
+
+#webcam {
+    transform: rotateY(180deg);
+    width: 640px;
+    height: 480px;
+}
+
+#my-canvas {
+    transform: rotateY(180deg);
+}
